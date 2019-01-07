@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+	<link rel="shortcut icon" href="../images/favicon.ico" /> <!--Icon in title-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Used for social media icons-->
+	<script src="../script/script.js"></script>
+	
+	<link href="../css/stylehome.css" rel="stylesheet" type="text/css">
+
+	<title>DB Fitness - Where Health Matters</title>
+	
+</head>
+
+
+<body onload="showSlides(1)">
+
+		<!--Navigation Bar-->
+		<div class="topnav" id="myTopnav">
+		
+			  <a href="../html/homepage.html">Home</a>
+			  <a href="../html/gym.html">Gym</a>
+			  <a href="../html/classes.html">Classes</a>
+			  <a href="../html/team.html">Our Team</a>
+			  <a href="../html/contact.html">Contact</a>
+			  <a href="../html/blog.html">Blog</a>
+			  <a href="javascript:void(0);" style="font-size:18px;" class="icon" onclick="displayTopNav()">&#9776;</a>
+			  
+		</div>
+
+	<!--SlideShow-->
+	<div class="row bottom-space">
+
+		<h1>Our Gym</h1>
+		<h5>State Of The Art Gym Equipment</h5>
+		<br>
+
+		<!--SLIDESHOW-->
+		<div class=" container" id="target-gym">
+		
+			<!--Slide 1-->
+			<div class="slide">
+			  <div class="slide-num">1 / 4</div>
+			  <!--Image is taken from wikipedia: www.localfitness.com.au - Own work -->
+			  <img class="slide-img" src="../images/equipment1.jpg" alt="dumbbells" style="width:100%">
+			  <div class="caption">Open Clean Gym</div>
+			</div>
+
+			<!--Slide 2-->
+			<div class="slide">
+			  <div class="slide-num">2 / 4</div>
+			  <img  class="slide-img" src="../images/equipment2.jpg" alt="kettle bells" style="width:100%">
+			  <div class="caption"></div>
+			</div>
+
+			<!--Slide 3-->
+			<div class="slide">
+			  <div class="slide-num">3 / 4</div>
+			  <img class="slide-img" src="../images/equipment3.jpg" alt="gym class" style="width:100%">
+			  <div class="caption">Premium Dumbbells</div>
+			</div>
+			
+			<!--Slide 4-->
+			<div class="slide">
+			  <div class="slide-num">4 / 4</div>
+			   <!--Image is taken from wikipedia: www.localfitness.com.au - Own work -->
+			  <img class="slide-img" src="../images/equipment4.jpg" alt="gym class" style="width:100%">
+			  <div class="caption">Natural Lighting</div>
+			</div>
+
+			<!-- Next & Prev Buttons-->
+			<a class="next" onclick="changeSlide(1)">&#x276d;</a>
+		
+		</div>
+		
+	</div>
+
+	<div class="row">
+		
+		<div class="gym-info col-12 col-t-12 bottom-space">
+		<h2>DB Fitness Gym</h2>
+			<p>
+				Dumbbel Fitness has multiple locations across the globe.
+				Each of our locations has superior gym equipment.
+				Our gym's feature natural lighting, with lots of space, so you
+				can enjoy your workouts in complete peace and comfort.
+				We've been awarded several awards including the Oprah award, which we received in 2005.
+			</p>
+			
+			<p class="no-display">
+				Some of the biggest names in the fitness industry have trained in our gyms. Elite 
+				Athletes like Usain Bolt, Michael Phelps have had grueling workouts in our gym's.
+				Pro bodybuilders like Steve Cook, Calum Von Moger and Kali Muscle have pushed themselves to the limits
+				within our gyms.
+			</p>
+		</div>	
+	</div>
+
+	<div class="row bottom-space" id="target-studio">
+		<div class="col-6 col-t-6">
+			<h3 class="studio-caption">Our state of the art Studio</h3>
+		</div>
+
+		<div class="col-6 col-t-6" style="float:right;">
+				<img class="center" src="../images/studio.jpg" alt="gym studio">
+		</div>
+		
+	</div>
+		
+		
+	<!--Gym Features-->
+	<div class="row">
+		
+		<div class="gym-features col-12 col-t-12 bottom-space">
+			<h2>Features</h2>
+			<p>
+				DB Fitness gym's have a great range of equipment. ranging from
+				Olympic squat racks to Eleiko weights.
+				Some of our favorites include:
+			</p>
+			<ul>
+				<li>State of the art gym equipment</li>
+				<li>A Studio dedicated to cooling down and stretching</li>
+				<li>A highly trained and a dedicated team</li>
+				<li>Eleiko weights </li>
+				<li>Olympic squat racks </li>
+				<li>Treadmills</li>
+				<li>Fixed Barbells</li>
+			</ul>
+			
+		</div>
+		
+	</div>
+	
+	
+	
+
+	
+<!--HORIZONTAL SCROLLING CARDS FOR LINKS FROM HOMEPAGE-->	
+<div class="row bottom-space" id="target">
+
+	<h2 style="text-align:center;">Our Promise to you</h2>
+	<!--Scrolling Containers-->
+	<div class="scrolling-wrapper-flexbox">
+		
+		<!--Card 1-->
+		<div class="card">
+			<img src="../images/results.jpg" alt="salad" style="width:100%">
+			
+			<div class="container-card">
+				<h6>Definite Results</h6>
+				<p>
+					With the aid of our fully 
+					qualified and highly trained
+					team, we can promise you
+					definite results to your health and 
+					fitnesss
+				</p> 
+				
+			</div>
+		</div>
+		
+		<!--Card 2-->
+		<div class="card">
+			<img src="../images/musclebuild.jpg" alt="greens" style="width:100%">
+			
+			<div class="container-card">
+				<h6>Muscle Builduing</h6>
+				<p>
+					We have transformed thousands of lives.
+					we have built muscle.
+					Now, we will build your body
+				</p> 
+				
+			</div>
+		</div>
+		
+		
+		<!--Card 3-->
+		<div class="card" >
+			<img src="../images/swimming.jpg" alt="muscle man" style="width:100%">
+			
+			<div class="container-card" >
+				<h6>Fat Loss</h6>
+				<p>
+					Fat Loss doesn't need to be hard
+					choose Dumbbell Fitness and we will
+					show you the way
+				</p> 
+				
+			</div>
+		</div>
+		
+		<!--Card 4-->
+		<div class="card">
+			<img src="../images/support.jpg" alt="eating food" style="width:100%">
+			
+			<div class="container-card">
+				<h6>Support you throughout your journey</h6>
+				<p>
+					At DB Fitness we have a dedicated team
+					who will commit to support you through your 
+					fitness journey.
+				</p> 
+				
+			</div>
+		</div>
+		
+		<!--Card 5-->
+		<div class="card">
+			<img src="../images/satisfaction.jpg" alt="ice-cream" style="width:100%">
+			
+			<div class="container-card">
+			<h6>Satisfaction</h6>
+				<p>
+					Seeing great results in your body is 
+					a very satisfying experience.
+					we ensure you will have this experience.
+				</p> 
+				
+			</div>
+		</div>
+		
+
+	</div>
+	
+</div>	
+	
+	
+
+
+
+
+	<!--FOOTER-->
+	<div class="row">
+	
+	<!--USE PHP ECHO TO ADD THE CURRENT DATE AT THE END OF THE FOOTERS-->
+		<div class="col-12 col-t-12 footer">
+
+			<h2>Dumbell Fitness</h2>
+			<p>Email us at: <a href="../html/contact.html">dbfitness@gmail.com</a>.</p>
+			
+				<div class="icons">
+					<!--Icons are sourced from: https://fontawesome.com/icons?d=gallery-->
+					<a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+					<a href="https://twitter.com/?lang=en" target="_blank" class="fa fa-twitter"></a>
+					<a href="https://www.instagram.com/?hl=en" target="_blank" class="fa fa-instagram"></a>
+					<a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube-square"></a>
+					<a href="https://www.linkedin.com/feed/" target="_blank" class="fa fa-linkedin"></a>
+					<a href="https://www.snapchat.com/" target="_blank"  class="fa fa-snapchat"></a>
+				</div>
+		</div>
+		
+	</div>
+
+</body>
+
+</html>

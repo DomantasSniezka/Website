@@ -1,0 +1,154 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+	<link rel="shortcut icon" href="../images/favicon.ico" /> <!--Icon in title-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Used for social media icons-->
+	
+	<script  src="../script/script.js"></script> <!-- Setting the viewpoint to make the page interactive -->
+	<!--API key ==> AIzaSyCdXJtBf-JhvqtkHfv1IjWOA4xtTWZ_DH0 -->
+	
+	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdXJtBf-JhvqtkHfv1IjWOA4xtTWZ_DH0&callback=initMap">
+    </script>
+	
+	
+	<link href="../css/stylehome.css" rel="stylesheet" type="text/css">
+	
+	<title>DB Fitness - Where Health Matters</title>
+	
+</head>
+
+
+<body>
+
+	<!--Navigation Bar-->
+	<div class="topnav" id="myTopnav">
+	
+		 <a href="../html/homepage.html">Home</a>
+		  <a href="../html/gym.html">Gym</a>
+		  <a href="../html/classes.html">Classes</a>
+		  <a href="../html/team.html">Our Team</a>
+		  <a href="../html/contact.html">Contact</a>
+		  <a href="../html/blog.html">Blog</a>
+		  <a href="javascript:void(0);" style="font-size:18px;" class="icon" onclick="displayTopNav()">&#9776;</a>
+		  
+	</div>
+
+<div class="row">
+
+	<div class="bg-image"></div>
+	
+	<div class="bottom-space">
+		<h1> Contact </h1>
+		<h6 style="text-align:center;"> Please Feel Free To contact us with whatever concerns you may have </h6>
+	</div>
+
+	<div class="form col-6 col-t-6 bottom-space">	
+		<h3>Send us an Email</h3>
+		<form action="../php/page.php" method="get">
+		
+			First Name:<br>
+			<input type="text" name="fname" value="">
+			<br>
+			
+			<br>
+			Last Name:<br>
+			<input type="text" name="lname" value="">
+			<br>
+			
+			<br>
+			Your Email:<br>
+			<input type="text" name="email" value="">
+			<br>
+			
+			<br>
+			Message:<br>
+			<textarea rows="3" cols="40" name="message">
+			</textarea>
+			<br>
+			
+			<br>
+			<input type="submit"  value="Send" onclick="displaySubmit()">
+			<br><br>
+		</form>
+	</div>
+	
+	
+	<div class="hours-box col-3 col-t-3">
+		<ul>
+			<li><h6>Opening Hours</h6></li>
+			
+			<li>Monday - Friday:
+				<ul>
+					<li>6am - 11pm</li>
+				</ul>
+			</li>
+			
+			<li>Saturday:
+				<ul>
+					<li>7am - 10pm</li>
+				</ul>
+			</li>
+			
+			<li>Sunday:
+				<ul>
+					<li>8am - 8pm</li>
+				</ul>
+			</li>
+			
+		</ul>
+	</div>
+	
+	<div class="address-box no-display col-3 col-t-3">
+		<ul>
+			<li><h6>Address</h6></li>
+			<li>University College Dublin</li>
+			<li>Billy Bong Road</li>
+			<li>Dublin 4</li>
+			<li> Phone: +353 1 716 7777</li>
+			<li> Email:dbfitness@gmail.com</li>
+		</ul>
+	</div>
+	
+	<!---Google Map-->
+	<div id="map" class="">
+	</div>
+	
+</div>
+	
+	
+
+
+	<!--FOOTER-->
+	<div class="row">
+	
+	<!--USE PHP ECHO TO ADD THE CURRENT DATE AT THE END OF THE FOOTERS-->
+		<div class="col-12 col-t-12 footer">
+		
+			<h2>Dumbell Fitness</h2>
+			<p>Email us at: <a href="../html/contact.html">dbfitness@gmail.com</a></p>
+			
+				<div class="icons">
+					<!--Icons are sourced from: https://fontawesome.com/icons?d=gallery-->
+					<a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+					<a href="https://twitter.com/?lang=en" target="_blank" class="fa fa-twitter"></a>
+					<a href="https://www.instagram.com/?hl=en" target="_blank" class="fa fa-instagram"></a>
+					<a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube-square"></a>
+					<a href="https://www.linkedin.com/feed/" target="_blank" class="fa fa-linkedin"></a>
+					<a href="https://www.snapchat.com/" target="_blank"  class="fa fa-snapchat"></a>
+				</div>
+				
+		</div>
+		
+	</div>
+
+</body>
+
+</html>
